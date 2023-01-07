@@ -13,11 +13,12 @@ if ! zgen saved; then
 	zgen oh-my-zsh plugins/command-not-found
 	zgen oh-my-zsh plugins/docker
 	zgen oh-my-zsh plugins/docker-compose
+	zgen oh-my-zsh plugins/minikube
 	zgen oh-my-zsh plugins/kubectl
 	zgen oh-my-zsh plugins/sudo
 
 	# skaffold plugins
-	zgen load todie/skaffold.plugin.zsh
+	# zgen load todie/skaffold.plugin.zsh
 
 	# specify theme here
 	zgen oh-my-zsh themes/arrow
